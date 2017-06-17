@@ -1,6 +1,8 @@
 (function() {
 
-  angular.module('usptoAngular')
+  angular.module('uib-datepicker-pc', []);
+
+  angular.module('uib-datepicker-pc')
     .value('$datepickerSuppressError', false)
 
     .value('$datepickerLiteralWarning', true)
